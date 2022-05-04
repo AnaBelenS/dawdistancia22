@@ -11,12 +11,12 @@
   * @param int $num2
   * @return float
 */
-function suma ($num1, $num2){
+function sumaNumeros ($num1, $num2){
 	$resultadosuma = $num1 + $num2;
 	return $resultadosuma;
 }
 
-$suma = suma(24,42);
+$suma = sumaNumeros(24,42);
 echo $suma;
 
 /**
